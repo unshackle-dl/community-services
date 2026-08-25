@@ -1,0 +1,11 @@
+endpoints:
+  metadata: "https://v6-metadata-cf.simplestreamcdn.com/api"
+  streams: "https://v2-streams-elb.simplestreamcdn.com/api"
+
+api_key: "9Qe1Id6Pu1Lk5Qs2Az4Jb2Kc9Bn5Mm"
+
+params:
+  platform: "androidtv"
+  cc: "GB"
+  lang: "en"
+  region: "GB"

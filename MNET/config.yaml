@@ -1,0 +1,15 @@
+endpoints:
+  login: https://api.mnetplus.world/user/v1/public/auth/login
+  media_events: https://api.mnetplus.world/media/v1/public/media-events
+  show: https://api.mnetplus.world/media/v1/public/media-events/{show_id}
+  archives: https://api.mnetplus.world/media/v1/public/videos/archives
+  video: https://api.mnetplus.world/media/v1/public/guests/videos/{video_id}
+  cookies: https://api.mnetplus.world/media/v2/public/videos/{video_id}/cookies
+  cues: https://api.mnetplus.world/media/v1/public/videos/{video_id}/captions/{caption_id}/cues
+
+cdn_domain: video.cdn.mnetplus.world
+
+headers:
+  Origin: https://www.mnetplus.world
+  Referer: https://www.mnetplus.world/
+  X-Lang-Country: en:US

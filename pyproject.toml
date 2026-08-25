@@ -1,0 +1,8 @@
+[tool.ruff]
+target-version = "py310"
+line-length = 88
+
+[tool.ruff.lint]
+preview = true
+ignore = ["RUF067", "FURB118", "N999"]
+extend-select = ["I", "UP", "B", "C4", "RUF", "SIM", "FURB", "PERF", "PIE", "BLE"]
